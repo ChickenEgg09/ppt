@@ -115,7 +115,7 @@ body {
 
 .bodywrap {
     width: 1200px;
-    height: 400px;
+    height: 670px;
 }
 
 .contents {
@@ -316,7 +316,6 @@ footer {
 .bottom {
     width: 1200px;
     height: 200px;
-    background-color: #999999;
 }
 
 .btlogo {
@@ -325,10 +324,10 @@ footer {
     float: left;
 }
 
-.btlogo {
+.btlogo img {
     width: 300px;
-    height: 150px;
-    line-height: 150px;
+    height: 50px;
+    margin-top: 30px;
 }
 
 .copy {
@@ -343,7 +342,7 @@ footer {
    margin-top: 30px;
 }
 
-.copy img {
+.sns img {
     width: 40px;
     float: right;
     height: 40px;
