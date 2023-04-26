@@ -1,0 +1,29 @@
+.tabmenu ul li.on {
+    position: relative;
+    border-color: #5da62b;
+    border-top-width: 2px;
+    height: 58px;
+    line-height: 57px;
+    border-bottom: 1px solid #fff;
+}
+
+.tabmenu ul li.on div {
+    width: 1200px;
+    height: 300px;
+    z-index: 1;
+}
+
+.tabmenu ul li a.on:before {
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: -2px;
+    width: 1px;
+    height: 100%;
+    background: #5da62b;
+    border-top: 2px solid #5da62b;
+}
+
+.tabmenu ul li:first-child a {
+    border-left: 1px solid #ddd;
+}
