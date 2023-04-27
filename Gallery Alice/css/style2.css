@@ -97,13 +97,13 @@ body {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    color: black;
-    background-color: rgb(255, 255, 255, 0.7);
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 .submenu>li>a:hover {
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .tabmenu {
@@ -114,7 +114,6 @@ body {
 
 .tabmenu ul {
     display: flex;
-    border-bottom: 1px solid #5da62b;
     height: 60px;
 }
 
@@ -129,9 +128,7 @@ body {
     color: #505050;
     text-align: center;
     font-size: 14px;
-    border-bottom: none;
     line-height: 59px;
-    border-left: none;
 }
 
 .tabmenu ul li div {
@@ -146,6 +143,12 @@ body {
     width: 1200px;
     height: 400px;
     z-index: 1;
+}
+
+.tabmenulist>li>a:hover {
+    font-weight: bold;
+    color: black;
+    background-color: beige;
 }
 
 .tabmenulist {

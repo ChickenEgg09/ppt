@@ -97,33 +97,105 @@ body {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    color: black;
-    background-color: rgb(255, 255, 255, 0.7);
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 .submenu>li>a:hover {
     font-weight: bold;
+    color: white;
+}
+
+.tabmenu {
+    width: 1200px;
+    height: 500px;
+    position: relative;
+}
+
+.tabmenu ul {
+    display: flex;
+    height: 60px;
+}
+
+.tabmenu ul li {
+    flex: 1;
+}
+
+.tabmenu ul li a {
+    display: block;
+    height: 59px;
+    border: 1px solid #ddd;
+    color: #505050;
+    text-align: center;
+    font-size: 14px;
+    line-height: 59px;
+}
+
+.tabmenu ul li div {
+    position: absolute;
+    left: 0px;
+    height: 0px;
+    overflow: hidden;
+    margin-top: 10px; 
+}
+
+.tabmenu ul li.active div {
+    width: 1200px;
+    height: 400px;
+    z-index: 1;
+}
+
+.tabmenulist>li>a:hover {
+    font-weight: bold;
     color: black;
+    background-color: beige;
 }
 
-.bodywrap {
+.tabmenulist {
     width: 1200px;
-    height: 500px;
+    height: 400px;
+    float: right;
 }
 
-.menulist {
+.br {
+    width: 800px;
+    height: 400px;
+}
+
+.br img {
+    width: 800px;
+    height: 400px;
+}
+
+.br a:hover {
+    opacity: 0.5;
+}
+
+.de {
+    width: 800px;
+    height: 400px;
+}
+
+.de img {
+    width: 800px;
+    height: 400px;
+}
+
+.de a:hover {
+    opacity: 0.5;
+}
+
+.co {
     width: 1200px;
-    height: 500px;
+    height: 400px;
 }
 
-.menulist img {
-    width: 400px;
-    height: 200px;
-    margin-top: 30px;
-    float: left;
+.co img {
+    width: 800px;
+    height: 400px;
 }
 
-.menulist a:hover {
+.co a:hover {
     opacity: 0.5;
 }
 

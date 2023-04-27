@@ -1,9 +1,9 @@
 jQuery(document).ready(function(){
 
-    $('.navi').mouseover(function(){
-        $(this).find('.submenu').stop().slideDown(500);
+    $('.navi>li').mouseover(function(){
+        $(this).find('.submenu').stop().slideDown(300);
     }).mouseout(function(){
-        $(this).find('.submenu').stop().slideUp(500);
+        $(this).find('.submenu').stop().slideUp(300);
     });
 
     setInterval(function(){
@@ -13,12 +13,5 @@ jQuery(document).ready(function(){
         $('.slidelist').animate({marginLeft: -2400})
         $('.slidelist').delay(3000)
         $('.slidelist').animate({marginLeft: 0})
-    });
-
-    $('.noti li>a:first').click(function(){
-        $('.layer').addClass('active')
-    });
-    $('.btn').click(function(){
-        $('.layer').removeClass('active')
     });
 });

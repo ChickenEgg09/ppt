@@ -94,17 +94,17 @@ body {
 }
 
 .submenu>li>a {
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: black;
-    background-color: rgb(255, 255, 255, 0.7);
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
 }
 
 .submenu>li>a:hover {
-    font-weight: bold;
-    color: black;
+  font-weight: bold;
+  color: white;
 }
 
 .bodywrap {
@@ -113,56 +113,54 @@ body {
 }
 
 .tabmenu {
-    width: 1200px;
-    height: 800px;
-    position: relative;
+  width: 1200px;
+  height: 600px;
+  position: relative;
 }
 
 .tabmenu ul {
-    display: flex;
-    border-bottom: 1px solid #5da62b;
-    height: 60px;
+  display: flex;
+  height: 60px;
 }
 
 .tabmenu ul li {
-    flex: 1;
+  flex: 1;
 }
 
-.tabmenu li a {
-    display: block;
-    height: 59px;
-    border: 1px solid #ddd;
-    color: #505050;
-    text-align: center;
-    font-size: 14px;
-    border-bottom: none;
-    line-height: 59px;
-    border-left: none;
+.tabmenu ul li a {
+  display: block;
+  height: 59px;
+  border: 1px solid #ddd;
+  color: #505050;
+  text-align: center;
+  font-size: 14px;
+  line-height: 59px;
 }
 
-.tabmenu li a.hover {
-    font-weight: bold;
-    background-color: rgb(50, 50, 50);
-    color: white;
+.tabmenu ul li div {
+  position: absolute;
+  left: 0px;
+  height: 0px;
+  overflow: hidden;
+  margin-top: 10px; 
 }
 
-.tabmenu li div {
-    position: absolute;
-    left: 0px;
-    height: 0px;
-    overflow: hidden;
-    margin-top: 10px; 
+.tabmenu ul li.active div {
+  width: 1200px;
+  height: 400px;
+  z-index: 1;
 }
 
-.tabmenu li.active div {
-    width: 1200px;
-    height: 400px;
-    z-index: 1;
+.tabmenulist>li>a:hover {
+  font-weight: bold;
+  color: black;
+  background-color: beige;
 }
 
 .tabmenulist {
-    width: 1200px;
-    height: 400px;
+  width: 1200px;
+  height: 600px;
+  float: right;
 }
 
 table {
