@@ -68,62 +68,6 @@
     width: 150px;
 }
 
-.board_list {
-    width: 1200px;
-    height: 400px;
-    border-top: 2px solid #000;
-}
-
-.board_list > div {
-    font-size: 0px;
-    border-bottom: 1px solid #ddd;
-}
-
-.board_list > div.side {
-    border-bottom: 1px solid #ddd;
-}
-
-.board_list > div:last-child {
-    border-bottom: 1px solid #000;
-}
-
-.board_list > div > div {
-    font-size: 1.4rem;
-    padding: 15px 0;
-    text-align: center;
-    display: inline-block;
-}
-
-.board_list > div.side > div {
-    font-weight: 600;    
-}
- 
-.board_list .num {
-    width: 10%;
-    height: 50px;
-}
-.board_list .title {
-    width: 60%;
-    text-align: left;
-}
-
-.board_list .top .title {
-    text-align: center;
-}
-
-.board_list .writer {
-    width: 10%;
-    
-}
-.board_list .date {
-    width: 10%;
-    
-}
-.board_list .count {
-    width: 10%;
-    
-}
-
 .bt_wrap {
     margin-top: 30px;
     height: 200px;

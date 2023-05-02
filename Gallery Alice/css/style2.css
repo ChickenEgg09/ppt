@@ -261,3 +261,16 @@ footer {
     border-top: 1px solid rgb(0, 0, 0, 0.3);
     float: left;
 }
+
+.bodywrap {
+    width: 1200px;
+    height: 500px;
+}
+
+.bodywrap li{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}

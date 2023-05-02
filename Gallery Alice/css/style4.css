@@ -107,53 +107,6 @@ body {
   color: white;
 }
 
-.layer {
-    display: none;
-    position: relative;
-    z-index: 2;
-}
-
-.layer.active {
-    display: block;
-}
-
-.layerup {
-    width: 500px;
-    height: 300px;
-    position: fixed;
-    top: 30%;
-    left: 40%;
-    background-color: ivory;
-    border-radius: 10px;
-}
-
-.uptitle {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.upbody {
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 17px;
-    text-align: center;
-}
-
-.btn {
-    width: 70px;
-    height: 30px;
-    line-height: 30px;
-    position: absolute;
-    cursor: pointer;
-    background-color: yellow;
-    border-radius: 30px;
-    text-align: center;
-    right: 10px;
-    bottom: 10px;
-}
-
 footer {
     width: 100%;
     height: 200px;

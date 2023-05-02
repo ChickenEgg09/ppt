@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style4.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="src/styles.css" rel="stylesheet">
+    <script src="src/index.js" defer type="text/javascript"></script>
     <script src="script/jascript.js" defer type="text/javascript"></script>
     <script src="script/jquery-1.12.3.js"></script>
     <title>Gallery Alice</title>
@@ -55,188 +58,153 @@
             </nav>
         </div>
     </header>
-    <nav class="tabmenu">
-        <ul class="tabmenulist">
-            <li><a href="#">Q&A</a>
-                <section class="free">
-                    <div id="board-search">
-                        <div class="containe">
-                            <div class="search-window">
-                                <form action="">
-                                    <div class="search-wrap">
-                                        <label for="search" class="blind">Q&A 내용 검색</label>
-                                        <input id="search" type="search" name="" placeholder="검색어를 입력해주세요." value="">
-                                        <button type="submit" class="btn btn-dark">검색</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="board-list">
-                        <div class="containe">
-                            <table class="board-table">
-                                <thead>
-                                <tr>
-                                    <th scope="col" class="th-num">번호</th>
-                                    <th scope="col" class="th-title">제목</th>
-                                    <th scope="col" class="th-date">작성자</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>3231</td>
-                                    <th>
-                                      <a href="#!">몇시부터 영업하나요?</a>
-                                    </th>
-                                    <td>시간금</td>
-                                </tr>
-                                <tr>
-                                    <td>3230</td>
-                                    <th>
-                                      <a href="#!">RE: 몇시부터 영업하나요?</a>
-                                    </th>
-                                    <td>갤러리앨리스</td>
-                                </tr>
-                
-                                <tr>
-                                    <td>3229</td>
-                                    <th><a href="#!">휴무 있나요?</a></th>
-                                    <td>평생일종</td>
-                                </tr>
-                
-                                <tr>
-                                    <td>3228</td>
-                                    <th><a href="#!">RE: 휴무 있나요?</a></th>
-                                    <td>갤러리앨리스</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                
-                </section>
-            </li>
-            <li><a href="#">자주묻는 질문</a>
-                <section class="wkfy">
-                    <div id="board-search">
-                        <div class="containe">
-                            <div class="search-window">
-                                <form action="">
-                                    <div class="search-wrap">
-                                        <label for="search" class="blind">자주묻는 질문 내용 검색</label>
-                                        <input id="search" type="search" name="" placeholder="검색어를 입력해주세요." value="">
-                                        <button type="submit" class="btn btn-dark">검색</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="board-list">
-                        <div class="containe">
-                            <table class="board-table">
-                                <thead>
-                                <tr>
-                                    <th scope="col" class="th-num">번호</th>
-                                    <th scope="col" class="th-title">제목</th>
-                                    <th scope="col" class="th-date">작성자</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>5</td>
-                                    <th><a href="#!">예약해야되나요?</a></th>
-                                    <td>갤러리앨리스</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <th><a href="#!">어느요일에 사람이 많나요?</a></th>
-                                    <td>갤러리앨리스</td>
-                                </tr>
-                
-                                <tr>
-                                    <td>3</td>
-                                    <th><a href="#!">주차공간이 있나요?</a></th>
-                                    <td>갤러리앨리스</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </section>
-            </li>
-            <li><a href="#">방문후기</a>
-                <section class="notice">
-                    <div id="board-search">
-                        <div class="containe">
-                            <div class="search-window">
-                                <form action="">
-                                    <div class="search-wrap">
-                                        <label for="search" class="blind">후기 내용 검색</label>
-                                        <input id="search" type="search" name="" placeholder="검색어를 입력해주세요." value="">
-                                        <button type="submit" class="btn btn-dark">검색</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="board-list">
-                        <div class="container">
-                            <table class="board-table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" class="th-num">번호</th>
-                                        <th scope="col" class="th-title">제목</th>
-                                        <th scope="col" class="th-date">날짜</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1321</td>
-                                        <th>
-                                            <a href="#!">가끔씩 오는데 신메뉴가 계속 개발되요</a>
-                                        </th>
-                                        <td>2023-04-09</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1320</td>
-                                        <th>
-                                            <a href="#!">공연은 보는데 재밌어요</a>
-                                        </th>
-                                        <td>2023-03-25</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1319</td>
-                                        <th><a href="#!">직원분들이 너무 착해요</a></th>
-                                        <td>2023-03-17</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </section>
-            </li>
-        </ul>
-    </nav>
-    <div class="layer">
-        <div class="layerup">
-            <div class="uptitle">
-                60th Wonderland Concert
+    <div class="main">
+        <div class="tabs">
+            <div class="tab" data-tab-target="#tab1">
+                <p>Q&A</p>
             </div>
-            <div class="upbody">
-                RoseNBird는 La Ventana의 리더 정태호 피아니스트가
-                근현대 실내악의 낭만적 소품들을 재해석 하여
-                재즈 편성으로 연주하는 재즈밴드입니다.<br>
-
-                근현대실내악곡을 재즈로 편곡해 연주하는<br>
-                재즈밴드 RoseNBird입니다.<br>
-                품위있는 실내악곡들을 재즈로 감상하는<br>
-                아주 드문 연주회가 될 것입니다.<br>
-
-                2023. 5. 13(sat) 5 p.m.<br>
-                갤러리앨리스
+            <div class="tab" data-tab-target="#tab2">
+                <p>자주묻는 질문</p>
             </div>
-            <div class="btn">
-                닫기
+            <div class="tab" data-tab-target="#tab3">
+                <p>방문후기</p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div id="tab1" data-tab-content class="items">
+            <div class="boardwrap">
+                <div class="board_listwrap">
+                    <div class="boardlist">
+                        <div class="side">
+                            <div class="num">번호</div>
+                            <div class="title">제목</div>
+                            <div class="writer">글쓴이</div>
+                            <div class="date">작성일</div>
+                            <div class="count">조회</div>
+                        </div>
+                        <div>
+                            <div class="num">345</div>
+                            <div class="title"><a href="Retl.html">RE: 몇시부터 영업하나요?</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2023.05.03</div>
+                            <div class="count">53</div>
+                        </div>
+                        <div>
+                            <div class="num">344</div>
+                            <div class="title"><a href="tl.html">몇시부터 영업하나요?</a></div>
+                            <div class="writer">거중</div>
+                            <div class="date">2023.05.02</div>
+                            <div class="count">12</div>
+                        </div>
+                        <div>
+                            <div class="num">343</div>
+                            <div class="title"><a href="Rerhddus.html">RE: 공연은 한 달에 한 번 하나요?</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2023.05.02</div>
+                            <div class="count">45</div>
+                        </div>
+                        <div>
+                            <div class="num">342</div>
+                            <div class="title"><a href="rhddus.html">공연은 한 달에 한 번 하나요?</a></div>
+                            <div class="writer">공가사</div>
+                            <div class="date">2023.05.01</div>
+                            <div class="count">35</div>
+                        </div>
+                    </div>
+                    <div class="bt_wrap">
+                        <a href="#" class="on">등록</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab2" data-tab-content class="items">
+            <div class="boardwrap">
+                <div class="board_listwrap">
+                    <div class="boardlist">
+                        <div class="side">
+                            <div class="num">번호</div>
+                            <div class="title">제목</div>
+                            <div class="writer">글쓴이</div>
+                            <div class="date">작성일</div>
+                            <div class="count">조회</div>
+                        </div>
+                        <div>
+                            <div class="num">4</div>
+                            <div class="title"><a href="view.html">예약</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2019.12.05</div>
+                            <div class="count">12446</div>
+                        </div>
+                        <div>
+                            <div class="num">3</div>
+                            <div class="title"><a href="view.html">알바신청</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2019.05.12</div>
+                            <div class="count">14146</div>
+                        </div>
+                        <div>
+                            <div class="num">2</div>
+                            <div class="title"><a href="view.html">고양이</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2019.03.17</div>
+                            <div class="count">17391</div>
+                        </div>
+                        <div>
+                            <div class="num">1</div>
+                            <div class="title"><a href="view.html">주차공간</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2019.01.26</div>
+                            <div class="count">20481</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab3" data-tab-content class="items">
+            <div class="boardwrap">
+                <div class="board_listwrap">
+                    <div class="boardlist">
+                        <div class="side">
+                            <div class="num">번호</div>
+                            <div class="title">제목</div>
+                            <div class="writer">글쓴이</div>
+                            <div class="date">작성일</div>
+                            <div class="count">조회</div>
+                        </div>
+                        <div>
+                            <div class="num">454</div>
+                            <div class="title"><a href="view.html">맛있어요</a></div>
+                            <div class="writer">타풀</div>
+                            <div class="date">2023.05.10</div>
+                            <div class="count">523</div>
+                        </div>
+                        <div>
+                            <div class="num">453</div>
+                            <div class="title"><a href="view.html">공연을 자주 했으면 좋겠네요</a></div>
+                            <div class="writer">공자공</div>
+                            <div class="date">2023.05.03</div>
+                            <div class="count">865</div>
+                        </div>
+                        <div>
+                            <div class="num">452</div>
+                            <div class="title"><a href="view.html">멀지만 갈 보람이 있어요</a></div>
+                            <div class="writer">새한오</div>
+                            <div class="date">2023.04.26</div>
+                            <div class="count">634</div>
+                        </div>
+                        <div>
+                            <div class="num">451</div>
+                            <div class="title"><a href="view.html">직원분들이 착하시네요</a></div>
+                            <div class="writer">연수신</div>
+                            <div class="date">2023.04.15</div>
+                            <div class="count">963</div>
+                        </div>
+                    </div>
+                    <div class="bt_wrap">
+                        <a href="#" class="on">등록</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
