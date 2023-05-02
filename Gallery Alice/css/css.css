@@ -1,15 +1,75 @@
-.board_wrap {
-    width: 1000px;
+.boardwrap {
+    width: 1200px;
     height: 400px;
+}
+
+.board_wrap {
+    width: 1200px;
+    height: 300px;
     margin: 100px auto;
 }
 
-.board_title {
+.board_listwrap {
+    width: 1200px;
+    height: 400px;
+}
+
+.boardtitle {
     margin-bottom: 30px;
 }
 
+.boardlist {
+    width: 1200px;
+    height: 400px;
+}
+
+.boardlist > div {
+    font-size: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.boardlist > div.side {
+    border-bottom: 1px solid #ddd;
+}
+
+.boardlist > div > div {
+    font-size: 1.4rem;
+    padding: 15px 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.boardlist > div.side > div {
+    font-weight: 600;    
+}
+ 
+.boardlist .num {
+    width: 150px;
+
+}
+.boardlist .title {
+    width: 600px;
+    text-align: left;
+}
+
+.boardlist .side .title {
+    text-align: center;
+}
+
+.boardlist .writer {
+    width: 150px;
+    
+}
+.boardlist .date {
+    width: 150px;
+    
+}
+.boardlist .count {
+    width: 150px;
+}
+
 .board_list {
-    width: 100%;
+    width: 1200px;
     height: 400px;
     border-top: 2px solid #000;
 }
@@ -19,7 +79,7 @@
     border-bottom: 1px solid #ddd;
 }
 
-.board_list > div.top {
+.board_list > div.side {
     border-bottom: 1px solid #ddd;
 }
 
@@ -34,13 +94,13 @@
     display: inline-block;
 }
 
-.board_list > div.top > div {
+.board_list > div.side > div {
     font-weight: 600;    
 }
  
 .board_list .num {
     width: 10%;
-
+    height: 50px;
 }
 .board_list .title {
     width: 60%;

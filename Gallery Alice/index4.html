@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style4.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="src/styles.css" rel="stylesheet">
+    <script src="src/index.js" defer type="text/javascript"></script>
     <script src="script/jascript.js" defer type="text/javascript"></script>
     <script src="script/jquery-1.12.3.js"></script>
     <title>Gallery Alice</title>
@@ -55,182 +58,162 @@
             </nav>
         </div>
     </header>
-    <nav class="tabmenu">
-        <ul class="tabmenulist">
-            <li><a href="#">자유게시판</a>
-                <section class="free">
-                    <div id="board-search">
-                        <div class="containe">
-                            <div class="search-window">
-                                <form action="">
-                                    <div class="search-wrap">
-                                        <label for="search" class="blind">게시판 내용 검색</label>
-                                        <input id="search" type="search" name="" placeholder="검색어를 입력해주세요." value="">
-                                        <button type="submit" class="btn btn-dark">검색</button>
-                                    </div>
-                                </form>
-                            </div>
+    <div class="main">
+        <div class="tabs">
+            <div class="tab" data-tab-target="#tab1">
+                <p>자유게시판</p>
+            </div>
+            <div class="tab" data-tab-target="#tab2">
+                <p>자료실</p>
+            </div>
+            <div class="tab" data-tab-target="#tab3">
+                <p>공지사항</p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div id="tab1" data-tab-content class="items active">
+            <div class="boardwrap">
+                <div class="board_listwrap">
+                    <div class="boardlist">
+                        <div class="side">
+                            <div class="num">번호</div>
+                            <div class="title">제목</div>
+                            <div class="writer">글쓴이</div>
+                            <div class="date">작성일</div>
+                            <div class="count">조회</div>
+                        </div>
+                        <div>
+                            <div class="num">3253</div>
+                            <div class="title"><a href="view.html">커피 맛있게 먹는 법</a></div>
+                            <div class="writer">커피중독자</div>
+                            <div class="date">2023.05.02</div>
+                            <div class="count">136</div>
+                        </div>
+                        <div>
+                            <div class="num">3252</div>
+                            <div class="title"><a href="view.html">야간은 바쁘다..</a></div>
+                            <div class="writer">야간군</div>
+                            <div class="date">2023.05.02</div>
+                            <div class="count">331</div>
+                        </div>
+                        <div>
+                            <div class="num">3251</div>
+                            <div class="title"><a href="view.html">안녕하세요~</a></div>
+                            <div class="writer">우유빛깔OO</div>
+                            <div class="date">2023.05.02</div>
+                            <div class="count">645</div>
+                        </div>
+                        <div>
+                            <div class="num">3250</div>
+                            <div class="title"><a href="view.html">커피 추천</a></div>
+                            <div class="writer">커피박사</div>
+                            <div class="date">2023.05.02</div>
+                            <div class="count">826</div>
                         </div>
                     </div>
-                    <div id="board-list">
-                        <div class="containe">
-                            <table class="board-table">
-                                <thead>
-                                <tr>
-                                    <th scope="col" class="th-num">번호</th>
-                                    <th scope="col" class="th-title">제목</th>
-                                    <th scope="col" class="th-date">작성자</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>3253</td>
-                                    <th>
-                                      <a href="#!">커피 맛있게 먹는 법</a>
-                                    </th>
-                                    <td>커피중독자</td>
-                                </tr>
-                                <tr>
-                                    <td>3252</td>
-                                    <th>
-                                      <a href="#!">궁금해서요....</a>
-                                    </th>
-                                    <td>야간군</td>
-                                </tr>
-                
-                                <tr>
-                                    <td>3251</td>
-                                    <th><a href="#!">안녕하세요~</a></th>
-                                    <td>우유빛깔OO</td>
-                                </tr>
-                
-                                <tr>
-                                    <td>3250</td>
-                                    <th><a href="#!">커피 추천</a></th>
-                                    <td>커피박사</td>
-                                </tr>
-                                </tbody>
-                            </table>
+                    <div class="bt_wrap">
+                        <a href="#" class="on">등록</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab2" data-tab-content class="items">
+            <div class="boardwrap">
+                <div class="board_listwrap">
+                    <div class="boardlist">
+                        <div class="side">
+                            <div class="num">번호</div>
+                            <div class="title">제목</div>
+                            <div class="writer">글쓴이</div>
+                            <div class="date">작성일</div>
+                            <div class="count">조회</div>
+                        </div>
+                        <div>
+                            <div class="num">4</div>
+                            <div class="title"><a href="view.html">커피란?</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2020.02.02</div>
+                            <div class="count">8735</div>
+                        </div>
+                        <div>
+                            <div class="num">3</div>
+                            <div class="title"><a href="view.html">커피열매 성장 과정</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2020.02.01</div>
+                            <div class="count">7124</div>
+                        </div>
+                        <div>
+                            <div class="num">2</div>
+                            <div class="title"><a href="view.html">국가별 커피 소비량</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2020.01.24</div>
+                            <div class="count">8295</div>
+                        </div>
+                        <div>
+                            <div class="num">1</div>
+                            <div class="title"><a href="view.html">커피 종류</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2020.02.23</div>
+                            <div class="count">8941</div>
                         </div>
                     </div>
-                </section>
-            </li>
-            <li><a href="#">자료실</a>
-                <section class="wkfy">
-                    <div id="board-search">
-                        <div class="containe">
-                            <div class="search-window">
-                                <form action="">
-                                    <div class="search-wrap">
-                                        <label for="search" class="blind">자료실 내용 검색</label>
-                                        <input id="search" type="search" name="" placeholder="검색어를 입력해주세요." value="">
-                                        <button type="submit" class="btn btn-dark">검색</button>
-                                    </div>
-                                </form>
-                            </div>
+                    <div class="bt_wrap">
+                        <a href="#" class="on">등록</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tab3" data-tab-content class="items">
+            <div class="boardwrap">
+                <div class="board_listwrap">
+                    <div class="boardlist">
+                        <div class="side">
+                            <div class="num">번호</div>
+                            <div class="title">제목</div>
+                            <div class="writer">글쓴이</div>
+                            <div class="date">날짜</div>
+                            <div class="count">조회</div>
+                        </div>
+                        <div>
+                            <div class="num">514</div>
+                            <div class="title"><a href="view.html">60th 원더랜드</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2023. 5. 13(SAT) 5.PM</div>
+                            <div class="count">766</div>
+                        </div>
+                        <div>
+                            <div class="num">513</div>
+                            <div class="title"><a href="view.html">Wonderland Concert</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">화~일11:00~18:00</div>
+                            <div class="count">576</div>
+                        </div>
+                        <div>
+                            <div class="num">512</div>
+                            <div class="title"><a href="view.html">와인파티로 배우는 와인기초강의</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">현재 ~ 10. 21</div>
+                            <div class="count">634</div>
+                        </div>
+                        <div>
+                            <div class="num">511</div>
+                            <div class="title"><a href="view.html">6대 다류 차회</a></div>
+                            <div class="writer">갤러리앨리스</div>
+                            <div class="date">2021.11.26 13:00~17:00</div>
+                            <div class="count">856</div>
                         </div>
                     </div>
-                    <div id="board-list">
-                        <div class="containe">
-                            <table class="board-table">
-                                <thead>
-                                <tr>
-                                    <th scope="col" class="th-num">번호</th>
-                                    <th scope="col" class="th-title">제목</th>
-                                    <th scope="col" class="th-date">등록일</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>7</td>
-                                    <th>
-                                      <a href="https://namu.wiki/w/%EC%BB%A4%ED%94%BC">커피란?</a>
-                                    </th>
-                                    <td>2023-04-27</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <th>
-                                      <a href="https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=minbyunghyun0210&logNo=221223769135">커피열매 성장 과정</a>
-                                    </th>
-                                    <td>2023-04-22</td>
-                                </tr>
-                
-                                <tr>
-                                    <td>5</td>
-                                    <th><a href="https://www.mk.co.kr/economy/view.php?sc=50000001&year=2022&no=958509">국가별 커피 소비량</a></th>
-                                    <td>2023-04-20</td>
-                                </tr>
-                
-                                <tr>
-                                    <td>4</td>
-                                    <th><a href="https://funfunfunny7.tistory.com/202">커피 종류</a></th>
-                                    <td>2023-04-16</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                    <div class="board_page">
+    
                     </div>
-                </section>
-            </li>
-            <li><a href="file:///C:/Users/user/Documents/GitHub/ppt/Gallery%20Alice/index4.html">공지사항</a>
-                <section class="notice">
-                    <div id="board-search">
-                        <div class="container">
-                            <div class="search-window">
-                                <form action="">
-                                    <div class="search-wrap">
-                                        <label for="search" class="blind">공지사항 내용 검색</label>
-                                        <input id="search" type="search" name="" placeholder="검색어를 입력해주세요." value="">
-                                        <button type="submit" class="btn btn-dark">검색</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                    <div class="bt_wrap">
+                        <a href="#" class="on">등록</a>
                     </div>
-                    <div id="board-list">
-                        <div class="container">
-                            <table class="board-table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" class="th-num">번호</th>
-                                        <th scope="col" class="th-title">제목</th>
-                                        <th scope="col" class="th-date">날짜</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>4</td>
-                                        <th>
-                                            <a href="#!">60th 원더랜드</a>
-                                        </th>
-                                        <td>2023. 5. 13(SAT) 5.PM</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <th>
-                                            <a href="#!">Wonderland Concert</a>
-                                        </th>
-                                        <td>화 ~ 일 11:00 ~ 18:00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <th><a href="#!">와인파티로 배우는 와인기초강의</a></th>
-                                        <td>현재 ~ 10. 21</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <th><a href="#!">6대 다류 차회</a></th>
-                                        <td>2021. 11. 26(FRI) 13:00 ~ 17:00</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </section>
-            </li>
-        </ul>
-    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="layer">
         <div class="layerup">
             <div class="uptitle">
