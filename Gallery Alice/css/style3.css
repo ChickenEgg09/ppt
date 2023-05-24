@@ -79,6 +79,8 @@ body {
 
 .navi>li>a:hover {
     font-weight: bold;
+    color: white;
+    background-color: rgba(151, 144, 144, 0.5);
 }
 
 .submenu {
@@ -103,7 +105,8 @@ body {
 
 .submenu>li>a:hover {
     font-weight: bold;
-    color: white;
+    color: black;
+    background-color: rgb(255, 255, 255, 0.5);
 }
 
 .tabmenu {
